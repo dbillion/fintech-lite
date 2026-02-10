@@ -26,7 +26,7 @@ class UtilityTests {
     @Test
     void testSecondLargest() {
         int[] arr = {1, 5, 3, 9, 7};
-        assertEquals(5, ArrayUtility.secondLargest(arr));
+        assertEquals(7, ArrayUtility.secondLargest(arr));
     }
 
     @Test
